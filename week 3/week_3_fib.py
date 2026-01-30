@@ -29,7 +29,10 @@ def main():
         # Draw the square
         t.color(line_color, colors[square_count % len(colors)])
 
-        
+        # my approach to filling the entire square was that the reason it was split in half was 
+        # because it was refilling the 2 extra sides in the range of 6 back to black, so I needed
+        # to stop the filling after it had done just 4 sides, so I put in a conditional statement
+        # to detect when it had completed 4 sides in the for loop and to stop filling for that square
         t.begin_fill()
         for side in range(6):
             t.forward(c)
