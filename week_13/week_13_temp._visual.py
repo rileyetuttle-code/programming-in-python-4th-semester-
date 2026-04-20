@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 
 def main() -> None: 
-    """Retrieve Data from Database and Graph by Riley Tutte"""
+    """Retrieve Data from Database and Graph by Riley Tuttl e"""
 
     # REQUEST DATA
     conn: s3.Connection = s3.connect("weather.db")
@@ -32,7 +32,7 @@ def main() -> None:
     plt.plot(dates, highs, c="green")
     plt.plot(dates, lows, c="red")
 
-    plt.title("Temperatures for Little Rock Weather Stations, AR")
+    plt.title("Temperatures for Denver Airport Weather Stations, CO By Riley Tuttle")
     plt.xlabel("Date")
     plt.ylabel("Temperature (\u00b0F)")
 

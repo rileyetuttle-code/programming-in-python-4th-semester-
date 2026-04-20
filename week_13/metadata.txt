@@ -1,0 +1,9 @@
+"elevation": 1647.2,
+"mindate": "1994-07-19",
+"maxdate": "2026-04-15",
+"latitude": 39.84657,
+"name": "DENVER INTERNATIONAL AIRPORT, CO US",
+"datacoverage": 0.9628,
+"id": "GHCND:USW00003017",
+"elevationUnit": "METERS",
+"longitude": -104.65623
