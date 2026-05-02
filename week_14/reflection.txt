@@ -1,0 +1,5 @@
+1. The assignment I chose is week 4 calculator project.
+
+2. The error that would occur would take place in the evaluation of the expression function that is stored in the result. If invalid calculations were made like 1 / 0, it would result in an arithmetic error.
+
+3. By adding a try except in this section, we would basically fully complete the calculator app and make it like a regular or modern calculator that says "invalid" or "error" when an expression that does not compute it type in. We could try the eval function and then when the arithmetic excpetion is raised, print an "invalid expression" in the result label and return to the program to be able to receieve a new input. It would turn the calc program into one fluid program that would not have to be restarted after an error like in previous adaptations. The program would tell the user the error, and let them continue inputting expressions.
