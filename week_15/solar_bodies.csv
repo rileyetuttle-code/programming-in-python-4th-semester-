@@ -1,0 +1,11 @@
+body_id,name,mass,color,pixel_radius
+0,Sun,1.9891e30,#FFFF00,50
+1,Mercury,3.301e23,#BEBEBE,20
+2,Venus,4.867e26,#FFD700,30
+3,Earth,5.972e24,#0000FF,30
+4,Mars,6.417e23,#FF0000,25
+5,Jupiter,1.899e27,#FFA500,45
+6,Saturn,5.685e26,#A52A2A,40
+7,Uranus,8.682e25,#0000FF,35
+8,Neptune,1.024e26,#0000FF,35
+1234567,MyPlanet,5.972e24,#00FF00,15
